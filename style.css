@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(18, 18, 57);
+    color: white;
+}
+table{
+    border-color: white;
+}
+td{
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(164, 246, 10);
+}
+.col{
+    background-color: rgb(165, 233, 255);
+    color: black;
+    text-align: center;
+}
+input{
+    font-size: 16px;
+}
+.bottom{
+    width: 25%;
+}
+.search{
+    /* border: 2px solid black; */
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}

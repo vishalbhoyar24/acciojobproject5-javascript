@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+
+        <legend>
+            <h2>
+                STUDENT MANAGEMENT CRUD
+            </h2>
+        </legend>
+        <form id="form">
+            <input type="text" id="name"name="name"placeholder="Name">
+            <input type="Email" id="email"name="email"placeholder="Email">
+            <input type="number" id="gpa"name="gpa"placeholder="Gpa"><br><br>
+            <input type="number" id="age"name="age"placeholder="Age">
+            <input type="text" id="degree"name="degree"placeholder="Degree"><br><br>
+            <input type="button" id="btn" class="bottom" value="Add Student"onclick="Submit()">
+            <!-- <input type="reset" value="reset"> -->
+        </form>
+    </fieldset>
+    <div class="search">
+        <input type="text" placeholder="Search By Name, Email or Degree">
+    </div>
+    <br>
+    <div id="msg"></div> <br>
+    <fieldset>
+        <legend>
+            <h2>DATA FROM STUDENT</h2>
+        </legend>
+        <table border="2" id="table">
+          <tr>
+            <td class="col">Name</td>
+            <td class="col">Email</td>
+            <td class="col">Gpa</td>
+            <td class="col">Age</td>
+            <td class="col">Degree</td>
+            <td class="col">Action</td>
+          </tr>
+        </table>
+    </fieldset>
+   
+</body>
+<script src="script.js"></script>
+</html>
